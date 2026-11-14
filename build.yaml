@@ -2,6 +2,7 @@ include:
   - board: xiao_ble//zmk
     shield: lintilla_left_central rgbled_adapter
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: lintilla-left
   - board: xiao_ble//zmk
     shield: lintilla_right_peripheral rgbled_adapter
