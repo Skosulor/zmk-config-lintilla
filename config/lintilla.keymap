@@ -18,6 +18,12 @@
     combos {
         compatible = "zmk,combos";
 
+        studio_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <2 14>;
+            require-prior-idle-ms = <200>;
+        };
+
         right_ctrl {
             bindings = <&sk RCTRL>;
             key-positions = <21 22>;
@@ -238,7 +244,7 @@
                 &trans                                                                                          &trans
 &bt BT_CLR      &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
+                &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans
                                       &trans        &trans        &trans        &trans  &trans  &trans
             >;
         };
@@ -248,7 +254,7 @@
         &trans                                                                  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
