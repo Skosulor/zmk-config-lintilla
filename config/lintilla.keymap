@@ -186,7 +186,7 @@
         layer_1 {
             bindings = <
                   &mo 5                                                                                                 &caps_word
-&kp LEFT_BRACKET  &kp Q  &kp W  &kp R           &kp T                  &kp Y    &kp U  &kp I       &kp O       &kp P    &kp LBKT    &kp SQT
+&kp LEFT_BRACKET  &kp Q  &kp W  &kp E           &kp R                  &kp T    &kp Y  &kp U       &kp I       &kp O    &kp P       &kp SQT
 &kp LSHFT         &kp A  &kp S  &kp D           &kp F                  &kp G    &kp H  &kp J       &kp K       &kp L    &kp SEMI    &kp RSHFT
                   &kp Z  &kp X  &kp C           &kp V                  &kp B    &kp N  &kp M       &kp COMMA   &kp DOT  &kp FSLH
                                 &sk LEFT_SHIFT  &urubLayerTap 2 SPACE  &kp TAB  &sl 1  &kp ESCAPE  &kp RETURN
